@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div className='flex justify-around items-center bg-black text-white mb-10 mt-2 h-24'>
       <div className="flex flex-col items-center">
-        <div>UNot</div>
+        <div>dannySocial</div>
       </div>
       <div className="flex flex-col items-center relative">
         <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKp_C-q2sH8QNtOsVJIRxy3sr-2fip5Y7NqjrJoWqcQQ&s' alt="notification" className="w-10"/>
