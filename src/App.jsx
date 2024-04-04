@@ -19,7 +19,7 @@ export default function App() {
       {user ? (
         <div>
           <Navbar/>
-          <Home/> 
+          <Home user={user}/> 
         </div>
       ) : (
         <div className="bg-blue-100 flex flex-col items-center justify-center gap-4 px-6 py-8 rounded-lg shadow-md w-72 sm:w-80 md:w-96 mx-auto my-40">
